@@ -9,6 +9,22 @@ function Cards() {
         border: "1px solid #E0E0E0",
         background: "#FFF",
     },
+        lastCardStyle = {
+            width: "692px",
+            height: "300px",
+            flexShrink: 0,
+            borderRadius: "4px",
+            border: "1px solid #E0E0E0",
+            background: "#FFF",
+        },
+        thirdCardStyle = {
+            width: "692px",
+            height: "420px",
+            flexShrink: 0,
+            borderRadius: "4px",
+            border: "1px solid #E0E0E0",
+            background: "#FFF",
+        },
         cardHeading = {
             color: "#000",
             fontSize: "22px",
@@ -87,9 +103,9 @@ function Cards() {
                 <div className='row row-cols-auto mx-4 my-4'>
                     <div style={profilePic1}></div>
                     <p style={{ fontWeight: "bold", marginTop: "10px" }}>Sarthak Kamra</p>
-                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw" , marginTop: "15px"}}></i>
+                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw", marginTop: "15px" }}></i>
                     <p className='mt-2'>1.4k views</p>
-                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto" , marginTop: "15px"}}></i>
+                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto", marginTop: "15px" }}></i>
                 </div>
             </div>
             <div className="card mx-5 my-3" style={cardStyle}>
@@ -101,34 +117,47 @@ function Cards() {
                 <div className='row row-cols-auto mx-3 my-2'>
                     <div style={profilePic2}></div>
                     <p style={{ fontWeight: "bold", marginTop: "10px" }}>Sarah West</p>
-                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw" , marginTop: "15px"}}></i>
+                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw", marginTop: "15px" }}></i>
                     <p className='mt-2'>1.4k views</p>
-                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto" , marginTop: "15px"}}></i>
+                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto", marginTop: "15px" }}></i>
                 </div>
             </div>
-            <div className="card mx-5 my-3" style={cardStyle}>
+            <div className="card mx-5 my-3" style={thirdCardStyle}>
                 <img src="/Rectangle7.png" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <p style={cardHeading}>Finance & Investment Elite Social Mixer @Lujiazui</p>
                 </div>
-                <div className='row row-cols-auto mx-4 my-4'>
+                <div className='row row-cols-auto'>
+                    <p className='mx-3'>Fri, 12 Oct, 2018</p>
+                    <i className="fa-solid fa-location-dot mt-1"></i>
+                    <p>Ahmedabad, India</p>
+                </div>
+                <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true" style={{color:"orange", fontWeight:"bold"}}>Visit Website</a>
+                <div className='row row-cols-auto mx-4 '>
                     <div style={profilePic3}></div>
                     <p style={{ fontWeight: "bold", marginTop: "10px" }}>Ronal Jones</p>
-                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw" , marginTop: "15px"}}></i>
+                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw", marginTop: "15px" }}></i>
                     <p className='mt-2'>1.4k views</p>
-                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto" , marginTop: "15px"}}></i>
+                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto", marginTop: "15px" }}></i>
                 </div>
             </div>
-            <div className="card mx-5 my-3" style={cardStyle}>
+            <div className="card mx-5 my-3" style={lastCardStyle}>
                 <div className="card-body">
                     <p style={cardHeading}>Software Developer</p>
                 </div>
+                <div className='row row-cols-auto'>
+                    <p className='mx-3'>Innovaccer Analytics Private Ltd.</p>
+                    <i className="fa-solid fa-location-dot mt-1"></i>
+                    <p>Noida, India</p>
+                </div>
+                <a href="#" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true" style={{color:"lightgreen",fontWeight:"bold"}}>Apply on Timesjobs</a>
+
                 <div className='row row-cols-auto mx-4 my-4'>
                     <div style={profilePic4}></div>
                     <p style={{ fontWeight: "bold", marginTop: "10px" }}>Joseph Gray</p>
-                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw" , marginTop: "15px"}}></i>
+                    <i class="fa-regular fa-eye" style={{ marginLeft: "15vw", marginTop: "15px" }}></i>
                     <p className='mt-2'>1.4k views</p>
-                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto" , marginTop: "15px"}}></i>
+                    <i className="fa-solid fa-share-nodes" style={{ marginLeft: "auto", marginTop: "15px" }}></i>
                 </div>
             </div>
         </div>
